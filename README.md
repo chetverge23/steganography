@@ -1,10 +1,8 @@
 # LSB Steganography for IoT Sensor Messages
 
-## Summary Project Description
+## Summary
 
-This project demonstrates a simple steganography technique using Python. The goal is to hide a simulated IoT sensor message inside an image using the Least Significant Bit method.
-
-The hidden message contains example sensor information such as device ID, temperature, status, and authentication data. After embedding the message, the program extracts it again to check if the process worked correctly.
+This project demonstrates how Least Significant Bit (LSB) steganography can be used to hide IoT sensor messages inside digital images. A Python implementation was developed to embed and extract hidden data while preserving image quality. The experiment evaluates the effectiveness of the technique using metrics such as MSE and PSNR. The project also discusses how AI can be applied to steganalysis and cybersecurity, highlighting both the benefits and risks of hidden communication methods.
 
 ## Technologies Used
 
